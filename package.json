@@ -1,0 +1,30 @@
+{
+  "name": "js-code-coverage",
+  "version": "1.0.0",
+  "description": "JS test runner and code coverage example",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhakthan/js-code-coverage.git"
+  },
+  "author": "Ajay Bhakthan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhakthan/js-code-coverage/issues"
+  },
+  "homepage": "https://github.com/abhakthan/js-code-coverage#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.4",
+    "jasmine": "^2.4.1",
+    "karma": "1.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-coverage": "^1.0.0"
+  }
+}
